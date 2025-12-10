@@ -183,15 +183,15 @@ function getOpenTUILib(libPath?: string) {
     },
 
     bufferDrawText: {
-      args: ["ptr", "ptr", "u32", "u32", "u32", "ptr", "ptr", "u8"],
+      args: ["ptr", "ptr", "u32", "u32", "u32", "ptr", "ptr", "u32"],
       returns: "void",
     },
     bufferSetCellWithAlphaBlending: {
-      args: ["ptr", "u32", "u32", "u32", "ptr", "ptr", "u8"],
+      args: ["ptr", "u32", "u32", "u32", "ptr", "ptr", "u32"],
       returns: "void",
     },
     bufferSetCell: {
-      args: ["ptr", "u32", "u32", "u32", "ptr", "ptr", "u8"],
+      args: ["ptr", "u32", "u32", "u32", "ptr", "ptr", "u32"],
       returns: "void",
     },
     bufferFillRect: {
@@ -877,7 +877,7 @@ function getOpenTUILib(libPath?: string) {
       returns: "void",
     },
     bufferDrawChar: {
-      args: ["ptr", "u32", "u32", "u32", "ptr", "ptr", "u8"],
+      args: ["ptr", "u32", "u32", "u32", "ptr", "ptr", "u32"],
       returns: "void",
     },
   })
